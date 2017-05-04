@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.fanhl.ringlayout.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Circle"
+            android:label="@string/title_activity_circle"/>
+        <activity
+            android:name=".Rectangle"
+            android:label="@string/title_activity_rectangle"/>
+        <activity
+            android:name=".Clockwise"
+            android:label="@string/title_activity_clockwise"/>
+        <activity
+            android:name=".Counterclockwise"
+            android:label="@string/title_activity_counterclockwise"/>
+        <activity
+            android:name=".CustomStartAngle"
+            android:label="@string/title_activity_custom_start_angle"/>
+        <activity
+            android:name=".CustomStartAndEndAngle"
+            android:label="@string/title_activity_custom_start_and_end_angle"/>
+        <activity
+            android:name=".CustomAll"
+            android:label="@string/title_activity_custom_all"/>
+        <activity
+            android:name=".CustomAllInJava"
+            android:label="@string/title_activity_custom_all_in_java"/>
+    </application>
+
+</manifest>
