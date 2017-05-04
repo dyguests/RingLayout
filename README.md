@@ -2,6 +2,8 @@
 
 To make child views be arranged in a circular.圆形布局.
 
+Base from [dyguests/CircleLayout](https://github.com/dyguests/CircleLayout).
+
 ![circle](/graphics/circle.png)
 ![rect](/graphics/rect.png)
 ![custom](/graphics/custom.png)
