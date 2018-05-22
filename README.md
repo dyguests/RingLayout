@@ -1,5 +1,7 @@
 # Android RingLayout
 
+[![](https://jitpack.io/v/dyguests/RingLayout.svg)](https://jitpack.io/#dyguests/RingLayout)
+
 To make child views be arranged in a circular.圆形布局.
 
 Base from [dyguests/CircleLayout](https://github.com/dyguests/CircleLayout).
@@ -10,12 +12,30 @@ Base from [dyguests/CircleLayout](https://github.com/dyguests/CircleLayout).
 
 # Installlation
 
-
 Copy RingLayout.java to your project.
 
 Copy \<declare-styleable name="RingLayout"\> in attrs.xml to your attrs.xml.
 
 # Usage
+
+### Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+### Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.dyguests:RingLayout:v1.1'
+	}
+
+
 
 Parameters:
 
