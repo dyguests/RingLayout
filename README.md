@@ -12,12 +12,6 @@ Base from [dyguests/CircleLayout](https://github.com/dyguests/CircleLayout).
 
 # Installlation
 
-Copy RingLayout.java to your project.
-
-Copy \<declare-styleable name="RingLayout"\> in attrs.xml to your attrs.xml.
-
-# Usage
-
 ### Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
@@ -35,7 +29,7 @@ Add it in your root build.gradle at the end of repositories:
 	        implementation 'com.github.dyguests:RingLayout:v1.1'
 	}
 
-
+# Usage
 
 Parameters:
 
